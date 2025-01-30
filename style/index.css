@@ -10,7 +10,7 @@ html {
   
   .lora {
     font-family: "Lora", serif;
-    font-optical-sizing: auto;
-    font-weight: 700;
-    font-style: normal;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: italic;
   }
