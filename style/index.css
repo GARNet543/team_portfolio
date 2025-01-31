@@ -1,16 +1,40 @@
 html {
-    height: 100%;
-    width: 100%;
-  }
-  
-  .header {
-    color: #E64968;
-    font-size:80px;
-  }
-  
-  .lora {
-    font-family: "Lora", serif;
-  font-optical-sizing: auto;
-  font-weight: 700;
-  font-style: italic;
-  }
+height: 100%;
+width: 100%;
+}
+body {
+    background-color: #f1f1f1;
+}
+
+.header {
+color: #E64968;
+font-size:80px;
+}
+
+.lora {
+font-family: "Lora", serif;
+font-optical-sizing: auto;
+font-weight: 700;
+font-style: italic;
+}
+
+.container{
+    justify-content: center;
+}
+
+.crew{
+    border: solid;
+    border-color: gray;
+    border-radius: 20px;
+}
+
+img{
+    border-radius:10px;
+}
+
+.designation{
+    font-size: 15px;
+    font-weight: 700;
+    color:gray;
+    margin-top: -10px;
+}
