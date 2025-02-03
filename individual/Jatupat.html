@@ -379,6 +379,45 @@
           autoplayTimeout: 3000,
         });
       });
+      
+      document.addEventListener("DOMContentLoaded", function () {
+  const testimonials = [
+  ];
+
+  const container = document.querySelector(".testimonials");
+  container.innerHTML = "";
+
+  if (testimonials.length === 0) {
+    const noTestimonialDiv = document.createElement("div");
+    noTestimonialDiv.className = "text-center mt-3";
+    noTestimonialDiv.innerHTML = "<p>No testimonials available at the moment.</p>";
+    container.appendChild(noTestimonialDiv);
+  }
+
+
+  testimonials.forEach((testimonial) => {
+    const colDiv = document.createElement("div");
+    colDiv.className = "col-md-6";
+
+    const cardDiv = document.createElement("div");
+    cardDiv.className = "card p-3";
+
+    const quoteP = document.createElement("p");
+    quoteP.className = "mb-1";
+    quoteP.textContent = `"${testimonial.quote}"`;
+
+    const authorH6 = document.createElement("h6");
+    authorH6.className = "text-end";
+    authorH6.textContent = `- ${testimonial.author}`;
+
+    cardDiv.appendChild(quoteP);
+    cardDiv.appendChild(authorH6);
+    colDiv.appendChild(cardDiv);
+    container.appendChild(colDiv);
+  });
+});
+
     </script>
+    
   </body>
 </html>

@@ -14,7 +14,7 @@ const renderTeamMembers = () => {
             <div class="card-body">
                 <h5 class="card-title">${member.fullName}</h5>
                 <p class="card-text">${member.describtion || 'No Description'}</p>
-                <a href="${member.InfoLink || 'individual/text.html'}" class="btn btn-primary">More info...</a>
+                <a href="${member.InfoLink || 'individual/template/text.html'}" class="btn btn-primary">More info...</a>
             </div>
         `;
 

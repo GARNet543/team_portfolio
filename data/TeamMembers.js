@@ -2,7 +2,7 @@ export const teamMember = [{
     id:1,
     fullName : "Jatupat Kajornchaikul",
     describtion: "frontend & js programming",
-    img:"img/garn.png",
+    img:"img/garn.jpg",
     InfoLink:"individual/Jatupat.html"
 },
 {
@@ -11,26 +11,27 @@ export const teamMember = [{
     describtion: "support sale eng",
     img:"img/ake.jpg",
     InfoLink:"individual/Supawich.html"
+    
 },
 {
     id:3,
-    fullName : "John Doe",
+    fullName : "Pawarisa Kawepanma",
     describtion: "",
-    img:"img/maleProfile.jpg",
+    img:"img/kan.jpg",
     InfoLink:""
 },
 {
     id:4,
-    fullName : "John Doe",
+    fullName : "Natthamon Bunhai",
     describtion: "",
-    img:"img/maleProfile.jpg",
-    InfoLink:""
+    img:"img/puifai.jpg",
+    InfoLink:"individual/Natthamon.html"
 },
 {
     id:5,
-    fullName : "John Doe",
+    fullName : "Thiti Sriprasonk",
     describtion: "",
-    img:"img/maleProfile.jpg",
+    img:"img/thiti.jpg",
     InfoLink:""
 }
 ];
