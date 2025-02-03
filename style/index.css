@@ -22,12 +22,6 @@ font-style: italic;
     justify-content: center;
 }
 
-.crew{
-    border: solid;
-    border-color: gray;
-    border-radius: 20px;
-}
-
 img{
     border-radius:10px;
 }

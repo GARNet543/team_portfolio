@@ -2,15 +2,15 @@ export const teamMember = [{
     id:1,
     fullName : "Jatupat Kajornchaikul",
     describtion: "frontend & js programming",
-    img:"img/maleProfile.jpg",
+    img:"img/garn.png",
     InfoLink:"individual/Jatupat.html"
 },
 {
     id:2,
-    fullName : "John Doe",
-    describtion: "",
-    img:"img/maleProfile.jpg",
-    InfoLink:""
+    fullName : "Supawich Rattatham",
+    describtion: "support sale eng",
+    img:"img/ake.jpg",
+    InfoLink:"individual/Supawich.html"
 },
 {
     id:3,
