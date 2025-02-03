@@ -13,6 +13,7 @@ const renderTeamMembers = () => {
             <img class="card-img-top" src="${member.img}" alt="Profile picture of ${member.fullName}">
             <div class="card-body">
                 <h5 class="card-title">${member.fullName}</h5>
+                <p class="text-muted student-id">${member.id}</p>
                 <p class="card-text">${member.describtion || 'No Description'}</p>
                 <a href="${member.InfoLink || 'individual/template/text.html'}" class="btn btn-primary">More info...</a>
             </div>

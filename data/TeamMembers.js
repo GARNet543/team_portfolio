@@ -1,37 +1,37 @@
 export const teamMember = [{
-    id:1,
+    id:66010106,
     fullName : "Jatupat Kajornchaikul",
     describtion: "frontend & js programming",
     img:"img/garn.jpg",
     InfoLink:"individual/Jatupat/Jatupat.html"
 },
 {
-    id:2,
+    id:66010827,
     fullName : "Supawich Rattatham",
     describtion: "support sale eng",
     img:"img/ake.jpg",
-    InfoLink:"individual/Supawich.html"
+    InfoLink:"individual/Supawich/Supawich.html"
     
 },
 {
-    id:3,
-    fullName : "Pawarisa Kawepanma",
-    describtion: "",
+    id:66010471,
+    fullName : "Pawarisa Kaewpanma",
+    describtion: "frontend developer",
     img:"img/kan.jpg",
-    InfoLink:""
+    InfoLink:"individual/Pawarisa/Pawarisa.html"
 },
 {
-    id:4,
+    id:66010413,
     fullName : "Natthamon Bunhai",
-    describtion: "",
+    describtion: "frontend developer",
     img:"img/puifai.jpg",
-    InfoLink:"individual/์ืNatthamon/Natthamon.html"
+    InfoLink:"individual/Natthamon/Natthamon.html"
 },
 {
-    id:5,
+    id:66011390,
     fullName : "Thiti Sriprasonk",
     describtion: "",
     img:"img/thiti.jpg",
-    InfoLink:""
+    InfoLink:"individual/Thiti/Thiti.html"
 }
 ];
