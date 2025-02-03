@@ -3,7 +3,7 @@ export const teamMember = [{
     fullName : "Jatupat Kajornchaikul",
     describtion: "frontend & js programming",
     img:"img/garn.jpg",
-    InfoLink:"individual/Jatupat.html"
+    InfoLink:"individual/Jatupat/Jatupat.html"
 },
 {
     id:2,
@@ -25,7 +25,7 @@ export const teamMember = [{
     fullName : "Natthamon Bunhai",
     describtion: "",
     img:"img/puifai.jpg",
-    InfoLink:"individual/Natthamon.html"
+    InfoLink:"individual/์ืNatthamon/Natthamon.html"
 },
 {
     id:5,
