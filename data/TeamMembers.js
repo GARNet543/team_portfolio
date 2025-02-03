@@ -1,7 +1,7 @@
 export const teamMember = [{
     id:1,
     fullName : "Jatupat Kajornchaikul",
-    describtion: "frontend dev & js programming",
+    describtion: "frontend & js programming",
     img:"img/maleProfile.jpg",
     InfoLink:"individual/Jatupat.html"
 },
